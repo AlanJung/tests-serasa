@@ -1,0 +1,169 @@
+{
+	"info": {
+		"_postman_id": "f72813cf-3750-4bd6-b5d9-204638822b67",
+		"name": "Serasa-API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Gerar token",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyLCJkZXNhZmlvIjoic2VyYXNhIn0.oOMv4kf9hKMtuatZEZJyESVu9Z7h6hGBwrZRJ-9HkCU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"test\",\r\n  \"password\": \"1234\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://8dac9f4e-fcb2-4e8f-857a-e4ed3497a0d8.mock.pstmn.io/auth",
+					"protocol": "https",
+					"host": [
+						"8dac9f4e-fcb2-4e8f-857a-e4ed3497a0d8",
+						"mock",
+						"pstmn",
+						"io"
+					],
+					"path": [
+						"auth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retornar bancos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://8dac9f4e-fcb2-4e8f-857a-e4ed3497a0d8.mock.pstmn.io/bank",
+					"protocol": "https",
+					"host": [
+						"8dac9f4e-fcb2-4e8f-857a-e4ed3497a0d8",
+						"mock",
+						"pstmn",
+						"io"
+					],
+					"path": [
+						"bank"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retornar bancos SC",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyLCJkZXNhZmlvIjoic2VyYXNhIn0.oOMv4kf9hKMtuatZEZJyESVu9Z7h6hGBwrZRJ-9HkCU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://8dac9f4e-fcb2-4e8f-857a-e4ed3497a0d8.mock.pstmn.io/bank?estadoAtuacao=SC",
+					"protocol": "https",
+					"host": [
+						"8dac9f4e-fcb2-4e8f-857a-e4ed3497a0d8",
+						"mock",
+						"pstmn",
+						"io"
+					],
+					"path": [
+						"bank"
+					],
+					"query": [
+						{
+							"key": "estadoAtuacao",
+							"value": "SC"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Alterar bancos",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyLCJkZXNhZmlvIjoic2VyYXNhIn0.oOMv4kf9hKMtuatZEZJyESVu9Z7h6hGBwrZRJ-9HkCU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"banco\": \"Banco do Brasil\",\r\n    \"estadoAtuacao\": \"SP\",\r\n    \"juros\": \"15.00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://8dac9f4e-fcb2-4e8f-857a-e4ed3497a0d8.mock.pstmn.io/bank/{1}",
+					"protocol": "https",
+					"host": [
+						"8dac9f4e-fcb2-4e8f-857a-e4ed3497a0d8",
+						"mock",
+						"pstmn",
+						"io"
+					],
+					"path": [
+						"bank",
+						"{1}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Inclusão de banco",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://8dac9f4e-fcb2-4e8f-857a-e4ed3497a0d8.mock.pstmn.io/bank",
+					"protocol": "https",
+					"host": [
+						"8dac9f4e-fcb2-4e8f-857a-e4ed3497a0d8",
+						"mock",
+						"pstmn",
+						"io"
+					],
+					"path": [
+						"bank"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

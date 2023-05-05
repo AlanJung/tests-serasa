@@ -1,0 +1,11 @@
+[
+    {
+        "mensagem": "Registro alterado com sucesso!"
+    },
+    {
+        "id": 1,
+        "banco": "Banco do Brasil",
+        "estadoAtuacao": "SP",
+        "juros": "15,00%"
+    }
+]

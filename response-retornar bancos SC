@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "banco": "Banco do Brasil",
+        "estadoAtuacao": "SC",
+        "juros": "11,25%"
+    },
+    {
+        "id": 4,
+        "banco": "Banco Itaú",
+        "estadoAtuacao": "SC",
+        "juros": "12,50%"
+    },
+    {
+        "id": 5,
+        "banco": "Banco Mercantil do Brasil",
+        "estadoAtuacao": "SC",
+        "juros": "11,50%"
+    },
+    {
+        "id": 7,
+        "banco": "Banco Bradesco",
+        "estadoAtuacao": "SC",
+        "juros": "12,50%"
+    },
+    {
+        "id": 9,
+        "banco": "Nubank",
+        "estadoAtuacao": "SC",
+        "juros": "10,75%"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "banco": "Banco do Brasil",
+        "estadoAtuacao": "SC",
+        "juros": "11,25%"
+    },
+    {
+        "id": 2,
+        "banco": "Caixa Econômica Federal",
+        "estadoAtuacao": "SP",
+        "juros": "10,75%"
+    },
+    {
+        "id": 3,
+        "banco": "Banco Santander",
+        "estadoAtuacao": "PR",
+        "juros": "13,00%"
+    },
+    {
+        "id": 4,
+        "banco": "Banco Itaú",
+        "estadoAtuacao": "SC",
+        "juros": "12,50%"
+    },
+    {
+        "id": 5,
+        "banco": "Banco Mercantil do Brasil",
+        "estadoAtuacao": "SC",
+        "juros": "11,50%"
+    },
+    {
+        "id": 6,
+        "banco": "Banco Safra",
+        "estadoAtuacao": "SP",
+        "juros": "12,50%"
+    },
+    {
+        "id": 7,
+        "banco": "Banco Bradesco",
+        "estadoAtuacao": "SC",
+        "juros": "12,50%"
+    },
+    {
+        "id": 8,
+        "banco": "Banco Inter",
+        "estadoAtuacao": "SP",
+        "juros": "10,50%"
+    },
+    {
+        "id": 9,
+        "banco": "Nubank",
+        "estadoAtuacao": "SC",
+        "juros": "10,75%"
+    },
+    {
+        "id": 10,
+        "banco": "Banco Original",
+        "estadoAtuacao": "SP",
+        "juros": "12,50%"
+    }
+]

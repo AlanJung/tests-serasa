@@ -1,0 +1,11 @@
+[
+    {
+        "id": 353,
+        "banco": "Banco Teste",
+        "estadoAtuacao": "SC",
+        "juros": "10,00%"
+    },
+    {
+        "mensagem": "Banco adicionado com sucesso!"
+    }
+]
