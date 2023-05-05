@@ -1,7 +1,8 @@
-# Desafio Serasa ❤️
+# Desafio Serasa
 
 Neste repositório contém o código fonte do desafio Serasa, que consiste em um teste automatizado de uma aplicação web.
 O repositório faz utilização de CI/CD com o Github Actions.
+Coloquei juntamente no repositorio o desafio dos testes de api e acrescentei também as responses do postman.
 
 ## Instruções para execução do projeto
 
